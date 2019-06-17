@@ -15,7 +15,6 @@ import os
 #from aion.util.spell_check import SpellCorrector
 import re
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
-"""
 #####################################################################################################################
 def index_to_answers(answers_file):
     index_to_answer={}
@@ -33,7 +32,7 @@ index_to_word={}
 word_to_vec_map={}
 fp= open('word_to_index.pkl', 'rb')
 word_to_index = pickle.load(fp)
-spell_corrector = SpellCorrector(dictionary=word_to_index)
+#spell_corrector = SpellCorrector(dictionary=word_to_index)
 fp= open('index_to_word.pkl', 'rb')
 index_to_word = pickle.load(fp)
 fp= open('word_to_vec_map.pkl', 'rb')
@@ -46,7 +45,7 @@ def sentences_to_indices(X, word_to_index, max_len):
     for i in range(m):
         X[i]=X[i].lower()
         sentence_words=nltk.TreebankWordTokenizer().tokenize(X[i])
-        sentence_words[:] = [spell_corrector.correction(w) for w in sentence_words]
+        #sentence_words[:] = [spell_corrector.correction(w) for w in sentence_words]
         j = 0
         for w in sentence_words:
             X_indices[i, j] = word_to_index[w]
@@ -54,11 +53,16 @@ def sentences_to_indices(X, word_to_index, max_len):
         print(sentence_words)
     return X_indices
 #####################################################################################################################
-with open('model_architecture.json', 'r') as f:
-    model = model_from_json(f.read())
-model.load_weights('model_weights.h5')
+models=[]
+number_of_models=1
+for i in range(number_of_models):
+    weight_name='model_weights'+str(i)+'.h5'
+    architecture_name='model_architecture'+str(i)+'.json'
+    with open(architecture_name, 'r') as f:
+        model = model_from_json(f.read())
+    model.load_weights(weight_name)
+    models.append(model)
 #####################################################################################################################
-"""
 def check_product(sentence):
     sentence=sentence.lower()
     sentence_words=nltk.TreebankWordTokenizer().tokenize(sentence)
