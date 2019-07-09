@@ -69,13 +69,9 @@ def pretrained_embedding_layer(word_to_vec_map, word_to_index):
 def RNN_LSTM(input_shape, word_to_vec_map, word_to_index,number_of_output_neurons):
     sentence_indices = Input(input_shape,dtype='int32')
     embedding_layer = pretrained_embedding_layer(word_to_vec_map, word_to_index)
-    embeddings = embedding_layer(sentence_indices)   
-    X = Bidirectional(LSTM(128,return_sequences=True))(embeddings)
-    X = BatchNormalization()(X)
-    X = Dropout(0.5)(X)
-    X = Bidirectional(LSTM(128,return_sequences=False))(X)
-    X = BatchNormalization()(X)
-    X = Dropout(0.5)(X)
+    embeddings = embedding_layer(sentence_indices)  
+    X = Bidirectional(LSTM(128,return_sequences=False))(embeddings)
+    X = Dropout(0.4)(X)
     X = Dense(number_of_output_neurons)(X)
     X = Activation('softmax')(X)
     model = Model(inputs=sentence_indices,outputs=X)
@@ -83,7 +79,7 @@ def RNN_LSTM(input_shape, word_to_vec_map, word_to_index,number_of_output_neuron
 ###############################################################################################################################
 #Model instance,Compiling,training,etc
 maxLen = 20
-number_of_models=2
+number_of_models=1
 for i in range(number_of_models):
     filename='train'+str(i)+'.csv'
     X_train,Y_train,Y_train_oh,number_of_output_neurons=read_file(filename)
@@ -91,7 +87,7 @@ for i in range(number_of_models):
     model.summary()
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc'])
     X_train_indices =sentences_to_indices(X_train, word_to_index, maxLen)
-    model.fit(X_train_indices, Y_train_oh, epochs = 30, batch_size = 32, shuffle=True)
+    model.fit(X_train_indices, Y_train_oh, epochs = 20, batch_size = 32, shuffle=True)
     #Saving model weights and architechture 
     weights_save='model_weights'+str(i)+'.h5'
     archtecture_save='model_architecture'+str(i)+'.json'
