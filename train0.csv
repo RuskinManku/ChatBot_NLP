@@ -1,9 +1,10 @@
+0,Tell me what it is
 0,Can you tell me about it
-0,When should one use it 
-0,Who is it for 
-0,Who should take it
+0,Features about it
+0,Can you describe it for me
+0,Describe it
 0,it is used for what
-0,When should one take it
+0,Explain about it
 0,What is it 
 1,Why should one take it
 1,Advantages of using it
@@ -38,96 +39,88 @@
 5,How many times can one take it in a day  
 6,What to take it with  
 6,How to consume it  
-6,Can it be had with juice  
-6,Should I take it with Milk  
+6,Can it be had with   
+6,Should I take it with   
 6,Proper way to take it  
 6,What is the right way to consume it  
+7,Can you take it when
+7,Can you take it for
+7,Who should take it
+7,Who should not take it  
+7,When should one take it
+7,Can he take it
 7,it is for children of which age   
 7,At what age should I take it  
 7,"I am 15 years old , Can I take it  "
 7,it is Suitable for what age group  
 7,Right age to take it  
 7,it is for which age groups  
-8,When should one not take it  
-8,Who is it not for  
-8,Who should not take it  
-9,What is inside it  
-9,Vitamins in it  
-9,Contents of it  
-9,Proteins in it  
-9,How does it work  
-9,What are the ingredients of it  
-10,How it affects immunity  
-10,How it boosts immunity  
-10,Does it also boost childrens immunity  
-11,Is it an Ayurvedic product  
-11,Is it a medicated product  
-11,Is it an Ayurvedic product or a medicated product  
-12,it or other brands  
-12,Is it better than other products  
-12,Compare it with other products  
-12,Comparison of it with other brands  
-12,Is it more effective than other  brands  
-12,What is the difference between it and other  brands for children  
-13,Full form of DHA  
-13,Meaning of DHA  
-13,What is DHA  
-14,During what time childs brain develops the most  
-14,Maximum brain development in a child  
-14,When brain development happen in children  
-14,At what age does childrens brains develop  
-15,When does it expire  
-15,"After how many months from manufacturing , does it expires  "
-15,How long after manufacturing it expires  
-15,it is valid for how many months  
-15,For how long can I use it  
-15,What is the expiry date of it  
-16,After how much time it shows results  
-16,How much time it take for it to show results  
-16,How much does it help  
-16,How fast it works  
-16,Will it show results fast  
-16,How long does it take to show results  
-17,Is there Gluten in it  
-17,Why it has lactose  
-17,Does it have Gluten and Lactose  
-17,Is it gluten and lactose free  
-17,Is it free of Gluten and Lactose  
-18,Do you drink or eat it  
-18,Can I eat it  
-18,Can I take it directly  
-18,Is it a drink  
-18,Is it an edible product  
-19,Competitors of it  
-19,Products like it  
-19,Who are it competitors  
-20,How is it more effective than its competitors  
-20,What is different that it compared to its competitors  
-20,it versus its competitors  
-20,How is it better than its competitors  
-21,"My child is fat , can I give her it  "
-21,Can I give it to a healthy child  
-21,"My child is short , can I give her it  "
-21,"My child is healthy , can I give her it  "
-21,"My childs height is right but weight is low , can I give her it  "
-22,Is it a GSK product  
-22,Category of it  
-22,Which GSK category does it come in  
-23,Is it veg  
-23,Is it a vegetarian or non vegetarian product  
-23,Can I drink it if I am vegetarian  
-23,Is it a vegetarian product  
-24,Can I take it without prescription from Doctor  
-24,"I dont have a prescription , can I take it  "
-24,Can I take it without a prescription  
-24,Does it require a prescription  
-25,How is it better than cow milk  
-25,Can it replace Cow milk  
-25,Is it more effective than cow milk  
-25,"What is better , cow milk or it  "
-26,Can it be used to replace a meal  
-26,Is it enough for a childs nutrition  
-26,Is it a substitute for regular meal  
-26,Is it a meal replacement  
-26,Do I need to eat regular meal if I take it  
-26,Does it fulfill a childs nutrition  
+8,What are the contents in it
+8,What is inside it  
+8,Vitamins in it  
+8,Contents of it  
+8,Proteins in it  
+8,Can you tell me how it works on
+8,How does it work on
+8,How does it work  
+8,What inside it makes it good
+8,What are the ingredients of it  
+9,Is it an Ayurvedic product  
+9,Is it a medicated product  
+9,Can you tell me if it is a medicated product
+9,Is it an Ayurvedic product or a medicated product  
+10,it or other brands  
+10,Is it better than other products  
+10,How is it more effective than its competitors  
+10,What is different that it compared to its competitors  
+10,it versus its competitors  
+10,How is it better than its competitors  
+10,Compare it with other products  
+10,Comparison of it with other brands  
+10,Is it more effective than other  brands  
+10,What is the difference between it and other brands  
+11,When does it expire  
+11,"After how many months from manufacturing , does it expires  "
+11,How long after manufacturing it expires  
+11,it is valid for how many months  
+11,For how long can I use it  
+11,What is the expiry date of it  
+12,After how much time it shows results  
+12,How much time it take for it to show results  
+12,How much does it help  
+12,How fast it works  
+12,Will it show results fast  
+12,How long does it take to show results  
+13,Do you drink or eat it  
+13,Can I eat it  
+13,Can I take it directly  
+13,Is it a drink  
+13,Is it an edible product  
+14,"Person is fat , can I give her it  "
+14,Can I give it to a healthy person
+14,Can I give it to a healthy child  
+14,"My child is short , can I give her it  "
+14,"My child is healthy , can I give her it  "
+14,"My childs height is right but weight is low , can I give her it  "
+14,Should I give it to him
+14,Can I give it to him
+15,Tell me it’s category
+15,Is it a GSK product  
+15,Category of it  
+15,Which GSK category does it come in  
+16,Is it veg  
+16,Is it a vegetarian or non vegetarian product  
+16,Can I drink it if I am vegetarian  
+16,Is it a vegetarian product  
+17,Can I take it without prescription from Doctor  
+17,"I dont have a prescription , can I take it  "
+17,Can I take it without a prescription  
+17,Can i take it without a doctor recommendation
+17,Does it require a prescription  
+18,Can it be used to replace a meal  
+18,Is it enough for a childs nutrition  
+18,Is it a substitute for regular meal  
+18,Is it a meal replacement  
+18,Do I need to eat regular meal if I take it  
+18,Does it fulfill a nutrition  
+18,Can it be considered a standalone source of nutrition

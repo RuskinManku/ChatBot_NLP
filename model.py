@@ -11,6 +11,8 @@ from keras.preprocessing import sequence
 from keras.initializers import glorot_uniform
 import pickle 
 import nltk
+from nltk.corpus import stopwords
+stop_words = set(stopwords.words('english')) 
 ###############################################################################################################################
 #READING CSV INTO X_TRAIN AND Y_TRAIN
 def read_file(filename):
@@ -40,16 +42,26 @@ word_to_vec_map = pickle.load(fp)
 fp.close()
 ###############################################################################################################################
 #SENTENCE TO INDICES
-def sentences_to_indices(X, word_to_index, max_len):
+def sentences_to_indices(X, word_to_index, max_len,remove_stop):
     m = X.shape[0]
     X_indices = np.zeros((m,max_len))
-    print(X_indices.shape)
     for i in range(m):
         X[i]=X[i].lower()
         sentence_words=nltk.TreebankWordTokenizer().tokenize(X[i])
+        if remove_stop==1:
+            new_sentence=[]
+            for word in sentence_words:
+                if word not in stop_words:
+                    new_sentence.append(word)
+            sentence_words=new_sentence
         j = 0
+        print(sentence_words)
         for w in sentence_words:
-            X_indices[i, j] = word_to_index[w]
+            if w in word_to_index:
+                X_indices[i, j] = word_to_index[w]
+            else:
+                print(w)
+                #X_indices[i,j]=0
             j = j+1
     return X_indices
 ###############################################################################################################################
@@ -90,8 +102,11 @@ for i in range(number_of_models):
     model = RNN_LSTM((maxLen,), word_to_vec_map, word_to_index,number_of_output_neurons)
     model.summary()
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc'])
-    X_train_indices =sentences_to_indices(X_train, word_to_index, maxLen)
-    model.fit(X_train_indices, Y_train_oh, epochs = 30, batch_size = 32, shuffle=True)
+    X_train_indices =sentences_to_indices(X_train, word_to_index, maxLen,i)
+    if i==0:
+        model.fit(X_train_indices, Y_train_oh, epochs = 15, batch_size = 32, shuffle=True)
+    else:
+        model.fit(X_train_indices, Y_train_oh, epochs = 20, batch_size = 32, shuffle=True)
     #Saving model weights and architechture 
     weights_save='model_weights'+str(i)+'.h5'
     archtecture_save='model_architecture'+str(i)+'.json'

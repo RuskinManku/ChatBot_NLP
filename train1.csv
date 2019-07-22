@@ -1,127 +1,98 @@
-0,Can you tell me about it
-0,When should one use it 
-0,Who is it for 
-0,Who should take it
-0,It is used for what
-0,When should one take it
-0,What is it 
-1,Why should one take it
-1,Advantages of using it
-1,Advantages of it
-1,What does it help with 
-1,Tell me about it’s benefits
-1,How it is beneficial  
-1,What are the benefits of it  
-1,How is it more effective than its competitors  
-1,What is different that it compared to its competitors  
-1,it versus its competitors  
-1,How is it better than its competitors  
-2,What does it taste like  
-2,it flavours  
-2,Is it tasty  
-2,Describe the taste of it  
-2,What flavours does it come in  
-3,What is the margin on it  
-3,Price to retail of it  
-3,What is the PTR on it  
-3,How much does it cost  
-3,Price of it  
-3,What is the MRP on it  
-4,Different types of it  
-4,What are the key SKUs of it  
-4,What are the key packs of it  
-4,it types  
-4,Variants of it  
-4,What are the key types of it  
-5,How much to take it
-5,How much it should one take in a day  
-5,Daily dosage of it  
-5,Best time to take it  
-5,At what time should I take it  
-5,it before Dinner  
-5,How many times can one take it in a day  
-6,What to take it with  
-6,How to consume it  
-6,Proper way to take it  
-6,What is the right way to consume it  
-6,Idea way to take it
-7,When should one not take it  
-7,Who is it not for  
-7,Who cannot take it
-7,Who should not take it  
-7,Who should take it
-7,Can small kids take it
-7,Can children take it
-7,Who can take it
-8,it is for children of which age   
-8,At what age should I take it  
-8,"I am 15 years old , Can I take it  "
-8,it is Suitable for what age group  
-8,Right age to take it  
-8,it is for which age groups  
-9,What is there in it
-9,How it affects your body
-9,How does it work
-9,What is inside it  
-9,Vitamins in it  
-9,Various Contents of it  
-9,Proteins in it  
-9,How does it work  
-9,What are the ingredients of it  
-10,Is it an Ayurvedic product  
-10,Is it a medicated product  
-10,Do you drink or eat it  
-10,Can I eat it  
-10,Can I take it directly  
-10,Is it a drink  
-10,Is it an edible product  
-10,Is it veg  
-10,Is it a vegetarian or non vegetarian product  
-10,Can I drink it if I am vegetarian  
-10,Is it a vegetarian product  
-10,Is it same to baking soda
-11,"Which is better, eno or eno cooling"
-11,Eno versus Eno cooling
-11,How is it eno different from eno cooling
-11,Tell me about eno cooling
-11,What is Eno cooling
-11,What is fast cooling techonology
-11,Benefits of Eno cooling
-12,What does Eno cooling taste like  
-12,Eno cooling flavours  
-12,Is Eno cooling tasty  
-12,Describe the taste of Eno cooling
-12,What flavours does Eno cooling come in  
-12,What are the SKUs of Eno Cooling
-13,When does it expire  
-13,"After how many months from manufacturing , does it expires  "
-13,How long after manufacturing it expires  
-13,it is valid for how many months  
-13,For how long can I use it  
-13,What is the expiry date of it  
-14,Competitors of it  
-14,Products like it  
-14,Who are it competitors  
-14,Main competitors of it
-15,Can I take it without prescription from Doctor  
-15,"I dont have a prescription , can I take it  "
-15,Can I take it without a prescription  
-15,Does it require a prescription  
-16,"My stomach hurts,is it acidity"
-16,Symptoms of acidity
-16,Tell me about acidity
-16,How do i know i have acidity
-16,What is acidity
-17,What causes acidity
-17,Why do I acidity
-17,Eating what can cause acidity
-17,What types of food causes acidity
-17,How can I avoid acidity
-18,Is it a GSK product  
-18,Category of it  
-18,Which GSK category does it come in  
-19,Can you take it for stomach pain
-19,Will it help with stomach ache
-19,Should i take it for stomach pain
-19,"I have stomach pain, can I take it"
-19,Can it decrease my stomach pain
+0,Does Growth Plus boost immunity
+0,Will growth plus help with immunity
+0,Vitamins in Growth Plus that help with immunity
+0,How does Growth Plus boost Child immunity
+1,What is DHA
+1,Can you tell me about DHA
+1,What is the full form of DHA
+1,Explain about DHA
+2,At what age does children brain develop
+2,Tell me about brain development in children
+2,Age at which brain develops
+2,Brain development at what age
+3,Is Growth Plus free of Lactose and Gluten
+3,Is there Lactose in Growth Plus
+3,Is there Gluten in Growth Plus
+3,"I am lactose intolerant, Can I take Growth Plus"
+4,"Which is better, Growth Plus or cow milk"
+4,Is Growth Plus better than cow milk
+4,Should I take cow milk or Growth plus
+4,Is Growth plus more healthy than milk
+5,Are eno and baking soda same
+5,How is eno different from baking soda
+5,Is eno better than baking soda
+6,Can you tell me about eno cooling
+6,Features about eno cooling
+6,Can you describe eno cooling for me
+6,Describe eno cooling
+6,Eno cooling is used for what
+6,Explain about Eno cooling
+6,What is Eno cooling
+6,Benefits of Eno cooling
+6,Tell me about the advantages of Eno cooling
+6,Eno cooling technology used
+6,Eno cooling is used for what
+7,What is acidity
+7,Tell me about acidity
+7,What are the symptoms of acidity
+7,Tell me if I have acidity
+7,How do I know if I have acidity
+8,What is the reason for Acidity
+8,Types of food that cause acidity
+8,Will eating cause me acidity
+8,What causes acidity
+9,Can you take Eno for stomach ache
+9,"I have stomach ache,can I take eno"
+9,Is it fine if I take eno for stomach ache
+9,Will eno help me with stomach ache
+10,Is protein plus good for my muscles
+10,"I go to gym,will protein plus help me"
+10,Will protein plus helo me build muscles
+10,Will protein plus helo with making abs
+11,Is Protein Plus free of Lactose and Gluten
+11,Is there Lactose in Protein Plus
+11,Is there Gluten in Protein Plus
+11,"I am lactose intolerant, Can I take Protein Plus"
+12,Tell me about amino acid
+12,What is amino acid
+12,Can you tell me what amino acid is
+12,Is there amino acid in my body
+12,How is the amino acid in my body
+13,Can kidney patients take Crocin
+13,Should a liver patient take Crocin
+13,Can crocin cause allergies
+13,What if I have allergy for crocin
+14,How is crocin 650 better than crocin advance
+14,Difference between crocin 650 and crocin advance
+14,"Which is better,crocin 650 or crocin advance"
+14,Crocin advance versus crocin advance
+14,Which crocin to take in body pain
+14,Which crocin to take in fever
+14,Should I take crocin 650 or crocin advance for fever
+14,Which crocin 650 or crocin advance will be better for fever
+15,Can you tell me about otrinoz
+15,Features about otrinoz
+15,Can you describe otrinoz for me
+15,Describe otrinoz
+15,otrinoz is used for what
+15,Explain about otrinoz
+15,What is otrinoz
+16,Mother’s Horlicks during pregnancy
+16,Mother’s Horlicks during breast feeding
+16,Will is mother’s horlicks beneficial during pregnancy
+17,Can I take mother’s horlicks during second pregnancy
+17,Will mother’s horlicks help during second pregnancy
+17,Mother’s horlicks for third pregnancy
+18,Can mother’s horlicks cause diabetes
+18,Am I prone to diabetes if I take mother’s horlicks
+18,Side effects of mother’s horlicks
+19,Best product for sensitivity
+19,"I have teeth sensitivity,which product should I take"
+19,Will sensodyne help me with sensitivity
+19,Protection from sensitivity
+19,Will sensodyne protect permanently from sensitivity
+20,What is novamin technology
+20,Tell me about novamin technology
+20,Is novamin good
+20,Does sensodyne have novamin
+20,Is novamin present in sensodyne
