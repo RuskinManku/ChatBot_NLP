@@ -1,2 +1,2 @@
-# NLP_FINAL
+# Chatbot for products
 Final model for all products
