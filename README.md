@@ -1,2 +1,2 @@
-# Chatbot for products
-Final model for all products
+# Chatbot for answering product related questions
+An LSTM based model for unanswering questions related to retail products.
